@@ -1,8 +1,0 @@
-INSERT INTO cars2 (LicenseNumber) VALUES ('ABC ABC');
-Error: CHECK constraint failed: cars2
-
-INSERT INTO cars2 (LicenseNumber) VALUES ('katt hund');
-Error: CHECK constraint failed: cars2
-
-INSERT INTO cars2 (LicenseNumber) VALUES ('Rikard & Henrik');
-Error: CHECK constraint failed: cars2

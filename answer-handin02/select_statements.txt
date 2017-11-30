@@ -1,5 +1,0 @@
-SELECT make, color, LicenseNumber FROM cars join makes, colors ON cars.color_id=colors.color_id AND cars.make_id=makes.make_id WHERE make='Mazda' AND color='Red';
-
-SELECT make, color, LicenseNumber FROM cars join makes, colors ON cars.color_id=colors.color_id AND cars.make_id=makes.make_id WHERE make='Dodge';
-
-SELECT make, color, LicenseNumber FROM cars join makes, colors ON cars.color_id=colors.color_id AND cars.make_id=makes.make_id WHERE color='Silver';

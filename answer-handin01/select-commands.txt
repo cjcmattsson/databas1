@@ -1,2 +1,0 @@
-sqlite> .once silver-fords.txt
-sqlite> SELECT LicenseNumber, Make, Color FROM cars WHERE Make='Ford' AND Color='Silver' ORDER BY LicenseNumber;
